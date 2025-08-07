@@ -16,13 +16,13 @@ The script runs on my **Raspberry Pi 5 (4GB RAM)** using **Ubuntu Linux**, but i
 
 | Area                      | Status        | Notes                                                                 |
 |---------------------------|---------------|-----------------------------------------------------------------------|
-| Python monitoring script  | 🚧 In Progress | Currently being written and tested                                    |
-| Logging to text file      | 🚧 In Progress | Implementing basic logging with timestamps                           |
-| Alert thresholds          | 🔜 Planned     | Add conditional checks and alerting                                  |
-| Cron automation           | 🔜 Planned     | Will use `cron` to automate execution                                |
-| Project documentation     | ✅ Completed   | README created                                                        |
-| Git setup with .gitignore| ✅ Completed   | Basic `.gitignore` setup finished                                    |
-| GitHub publishing         | 🔜 Planned     | Will push to GitHub with version control                             |
+| Python monitoring script  | ✅ Completed  | Script created                                                        |
+| Logging to text file      | ✅ Completed  | Implemented basic logging with timestamps                             |
+| Alert thresholds          | ✅ Completed  | Added conditional checks and alerting. Also for planned downtimes     |
+| Cron automation           | 🚧 In Progres | Will use `cron` to automate execution                                 |
+| Project documentation     | ✅ Completed  | README created                                                        |
+| Git setup with .gitignore | ✅ Completed  | Basic `.gitignore` setup finished                                     |
+| GitHub publishing         | 🚧 In Progress| Will push to GitHub with version control                              |
 | Email/Slack alerts        | 🔜 Planned     | Will integrate messaging alerts for high usage                       |
 | Grafana/Prometheus logging| 🔜 Planned     | Future step: push data to a metrics database                         |
 | Docker/Kubernetes         | 🔜 Planned     | Will containerize and run on Minikube cluster                        |
