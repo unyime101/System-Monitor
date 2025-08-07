@@ -1,4 +1,4 @@
-# 🖥️ System Resource Monitor (Python)
+🚧🚧# 🖥️ System Resource Monitor (Python)
 
 A simple system monitoring tool built in Python for tracking CPU, memory, disk usage, and system uptime — with optional alerting.
 
@@ -31,12 +31,12 @@ The script runs on my **Raspberry Pi 5 (4GB RAM)** using **Ubuntu Linux**, but i
 
 ## 📊 Features
 
-- 🚧 Logs **CPU usage** (%)
-- 🚧 Logs **Memory usage** (%)
-- 🚧 Logs **Disk usage** (%)
-- 🚧 Logs **System uptime**
-- 🔜 Triggers alerts if usage crosses thresholds
-- 🔜 Outputs logs to a text file (`system_log.txt`)
+- ✅  Logs **CPU usage** (%)
+- ✅ Logs **Memory usage** (%)
+- ✅ Logs **Disk usage** (%)
+- ✅ Logs **System uptime**
+- ✅ Triggers alerts if usage crosses thresholds
+- ✅ Outputs logs to a text file (`system_log.txt`)
 - 🔜 Can be scheduled with `cron` for automated monitoring
 
 ---
