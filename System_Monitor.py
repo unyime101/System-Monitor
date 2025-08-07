@@ -6,8 +6,8 @@ CPU_THRESHOLD = 80
 MEM_THRESHOLD = 80
 DISK_THRESHOLD = 90
 
-def log(mesage): #this method will actually do the writing to the log file
-    with open("system_log.txt", "a") as f: #opens the  already created log text file
+def log(message): #this method will actually do the writing to the log file
+    with open("System_log.txt", "a") as f: #opens the  already created log text file
         f.write(f"{datetime.now()} - {message}\n") #appends the details of the checks to the log. Appends so it doesnt overwrite any previos data
 
 
@@ -42,7 +42,7 @@ def check_uptime(): #Function i specifcally need as i ssh a lot id like to know 
 def main(): # methods above are called
     log("===== System Check Started =====")
     check_cpu()
-    check_memory()
+    check_mem()
     check_disk()
     check_uptime()
     log("===== System Check Ended =====\n")
