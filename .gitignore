@@ -2,6 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
+system_log.txt
 
 # C extensions
 *.so
