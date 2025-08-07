@@ -16,14 +16,14 @@ The script runs on my **Raspberry Pi 5 (4GB RAM)** using **Ubuntu Linux**, but i
 
 | Area                      | Status        | Notes                                                                 |
 |---------------------------|---------------|-----------------------------------------------------------------------|
-| Python monitoring script  | ✅ Completed  | Script created                                                        |
-| Logging to text file      | ✅ Completed  | Implemented basic logging with timestamps                             |
-| Alert thresholds          | ✅ Completed  | Added conditional checks and alerting. Also for planned downtimes     |
-| Cron automation           | 🚧 In Progres | Will use `cron` to automate execution                                 |
+| Python monitoring script  | ✅Completed   | Script created                                                        |
+| Logging to text file      | ✅Completed   | Implemented basic logging with timestamps                             |
+| Alert thresholds          | ✅Completed   | Added conditional checks and alerting. Also for planned downtimes     |
+| Cron automation           | ✅Completed   | Used `cron` to automate execution                                     |
 | Project documentation     | ✅ Completed  | README created                                                        |
 | Git setup with .gitignore | ✅ Completed  | Basic `.gitignore` setup finished                                     |
 | GitHub publishing         | 🚧 In Progress| Will push to GitHub with version control                              |
-| Email/Slack alerts        | 🔜 Planned     | Will integrate messaging alerts for high usage                       |
+| Email/Slack alerts        | 🚧In Progress | Will integrate messaging alerts for high usage                        |
 | Grafana/Prometheus logging| 🔜 Planned     | Future step: push data to a metrics database                         |
 | Docker/Kubernetes         | 🔜 Planned     | Will containerize and run on Minikube cluster                        |
 
