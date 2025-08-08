@@ -37,7 +37,7 @@ The script runs on my **Raspberry Pi 5 (4GB RAM)** using **Ubuntu Linux**, but i
 - ✅ Logs **System uptime**
 - ✅ Triggers alerts if usage crosses thresholds
 - ✅ Outputs logs to a text file (`system_log.txt`)
-- 🔜 Can be scheduled with `cron` for automated monitoring
+- ✅ Can be scheduled with `cron` for automated monitoring
 
 ---
 
