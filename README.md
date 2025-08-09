@@ -24,8 +24,8 @@ The script runs on my **Raspberry Pi 5 (4GB RAM)** using **Ubuntu Linux**, but i
 | Git setup with .gitignore | ✅ Completed  | Basic `.gitignore` setup finished                                     |
 | GitHub publishing         | 🚧 In Progress| Will push to GitHub with version control                              |
 | Email/Slack alerts        | 🚧In Progress | Will integrate messaging alerts for high usage                        |
-| Grafana/Prometheus logging| 🔜 Planned     | Future step: push data to a metrics database                         |
-| Docker/Kubernetes         | 🔜 Planned     | Will containerize and run on Minikube cluster                        |
+| Grafana/Prometheus logging| 🔜 Planned    | Future step: push data to a metrics database                          |
+| Docker/Kubernetes         | 🔜 Planned    | Will containerize and run on Minikube cluster                         |
 
 ---
 
@@ -42,7 +42,9 @@ The script runs on my **Raspberry Pi 5 (4GB RAM)** using **Ubuntu Linux**, but i
 ---
 
 ## 🧠 Learning Goals
-
 - Strengthen Python skills by building practical automation tools
 - Learn system health monitoring and log management on Linux
+- Resource used to research sytem utils, psutil: //pypi.org/project/psutil/
 - Explore alerting, scheduling, and observability principles
+- Resource used to research cron automation: https://www.freecodecamp.org/news/cron-jobs-in-linux/
+- Resource used to research Email alerts smtplb: https://realpython.com/python-send-email/
