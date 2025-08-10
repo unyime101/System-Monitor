@@ -1,6 +1,6 @@
 import psutil #python module that allows me to have access to cpu , memory and network info
 from datetime import datetime
-
+import smtplib, ssl
 
 CPU_THRESHOLD = 80
 MEM_THRESHOLD = 80
