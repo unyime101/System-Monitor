@@ -3,7 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 System_log.txt
-
+.env
 # C extensions
 *.so
 
