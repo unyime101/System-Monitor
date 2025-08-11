@@ -1,6 +1,6 @@
 # 🖥️ System Resource Monitor (Python)
 
-A simple system monitoring tool built in Python for tracking CPU, memory, disk usage, and system uptime — with optional alerting.
+A simple system monitoring tool built in Python for tracking CPU, memory, disk usage, and system uptime — with alerting.
 
 ---
 
