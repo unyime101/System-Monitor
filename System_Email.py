@@ -23,9 +23,9 @@ def send_email(message):
   password = env.get("PASSWORD")
   target_email = env.get("TARGET_EMAIL")
   print(message)  #Message formatted how i want
-  with smtplib.SMTP_SSL(smtp_server, port, context=context) as server: #sends the passed through message 
+  with smtplib.SMTP_SSL(smtp_server,port,context=context) as server: #sends the passed through message 
     server.login(my_email, password)
-    server.sendmail(my_email, target_email, message)
+    server.sendmail(my_email,target_email,message)
 
 
 

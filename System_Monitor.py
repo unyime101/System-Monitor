@@ -46,7 +46,7 @@ def main(): # methods above are called
     Line_3 =check_disk()
     Line_4 =check_uptime()
     log("===== System Check Ended =====\n")
-    message = f"Booted on:{datetime.now()}\nCpu Usage:{Line_1}%\nMemory Usage:{Line_2}%\nDisk Usage:{Line_3}%\nSystem Uptime:{Line_4}"
+    message = f"""Subject: Pi Sys Monitor\n\nBooted on:{datetime.now()}\nCpu Usage:{Line_1}%\nMemory Usage:{Line_2}%\nDisk Usage:{Line_3}%\nSystem Uptime:{Line_4}"""
    # print(message) Checking the way the message is formatted 
     send_email(message)
 if __name__ == "__main__":
