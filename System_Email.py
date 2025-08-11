@@ -1,10 +1,14 @@
 import smtplib, ssl
 import os
+from pathlib import Path
 
 # Manually load .env file
 def load_env():
   env_vars = {}
-  with open('.env', 'r') as f:
+  env_path ="/home/unyime101/scripts/System-Monitor/.env"  #use your own path to the .env which will study ur  priv details
+  script_dir = os.path.dirname(os.path.abspath(__file__))
+  env_path = os.path.join(script_dir, ".env")
+  with open(env_path, 'r') as f:
     for line in f:
       if '=' in line and not line.startswith('#'):
         key, value = line.strip().split('=', 1)
